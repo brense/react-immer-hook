@@ -1,0 +1,35 @@
+{
+  "name": "react-immer-hook",
+  "version": "0.0.1",
+  "description": "React hook for immerjs that supports patches",
+  "main": "lib-esm/index.js",
+  "types": "lib-esm/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "tsc --p tsconfig-npm.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brense/react-immer-hook.git"
+  },
+  "keywords": [
+    "react",
+    "immer",
+    "immerjs",
+    "patches"
+  ],
+  "author": "Rense Bakker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brense/react-immer-hook/issues"
+  },
+  "homepage": "https://github.com/brense/react-immer-hook#readme",
+  "peerDependencies": {
+    "immer": "^9.0.12"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.43",
+    "react": "^17.0.2",
+    "typescript": "^4.6.3"
+  }
+}

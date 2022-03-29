@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "lib-esm",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/index.tsx"],
+  "exclude": ["node_modules"]
+}
