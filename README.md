@@ -11,7 +11,7 @@ Provides a hook for immerjs that supports patches
 ## Usage
 
 ```jsx
-import useImmer from './hooks/useImmer'
+import useImmer from 'react-immer-hook'
 
 function App() {
   const [value, produceValue, { undo, redo }] = useImmer('')
